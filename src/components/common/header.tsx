@@ -1,3 +1,4 @@
+
 import { navigationContent } from "../../resources/String";
 import { Title, LogoImage, AnchorTag } from "./HeaderStyle";
 import { image } from "../../resources/Images";
@@ -15,4 +16,5 @@ const Header: React.FC = () => {
     </div>
   );
 };
+
 export default Header;

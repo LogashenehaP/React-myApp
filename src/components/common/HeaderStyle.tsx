@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-//Navigation content
+
 export const Title = styled.div`
   display: flex;
   align-items: center;
