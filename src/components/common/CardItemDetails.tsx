@@ -6,7 +6,7 @@ const CardItemDetails:{
     isFeatured:boolean,
     productBrand:string,
     productRating:number,
-    productImage?: String,
+    productImage: string,
     productPrice:number
 
 }[]=[

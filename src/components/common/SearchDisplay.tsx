@@ -7,8 +7,16 @@ import {
 } from "./styles";
 
 import { FaStar } from "react-icons/fa";
+interface AppProps
+{
+  name:string;
+  brand:string;
+  price:number;
+  rating:number;
+  image:string
+}
 
-function SearchDisplay({ name, brand, price, rating, image }:any) 
+function SearchDisplay({ name, brand, price, rating,image }:AppProps) 
 {
   return (
     <IndividualCard>

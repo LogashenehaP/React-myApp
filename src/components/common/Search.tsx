@@ -61,6 +61,7 @@ let c=0;
             return (
               <div key={product.id}>
                 <SearchDisplay
+   
                   name={product?.productName}
                   brand={product?.productBrand}
                   price={product?.productPrice}

@@ -13,7 +13,8 @@ export const FeaturedItems: React.FC = () => {
         {CardItemDetails.map((product) => {
           return (
             <div key={product.id}>
-              {product.isFeatured && (
+              {
+               product.isFeatured && (
                 <>
                   <SearchDisplay
                     name={product.productName}
